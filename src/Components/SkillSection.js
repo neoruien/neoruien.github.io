@@ -1,15 +1,15 @@
 import React from 'react'
 
-function SkillsSection({skill,progress,width}) {
+function SkillSection({title,progress}) {
     return (
-        <div className="SkillsSection">
+        <div className="SkillSection">
             <div className="skills-container">
-                <h5 className="skill-title">{skill}</h5>
+                <h5 className="skill-title">{title}</h5>
                 <div className="skill-bar">
                     <p className="skill-text">{progress}</p>
                     <div className="skill-progress">
                         <div className="progress">
-                            <div className="inner-pregress" style={{width:width}}></div>
+                            <div className="inner-progress" style={{width:progress}}></div>
                         </div>
                     </div>
                 </div>
@@ -18,4 +18,4 @@ function SkillsSection({skill,progress,width}) {
     )
 }
 
-export default SkillsSection;
+export default SkillSection;

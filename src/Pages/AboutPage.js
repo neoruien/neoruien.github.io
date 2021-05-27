@@ -1,7 +1,7 @@
 import React from 'react'
 import Tittle from '../Components/Tittle'
 import ImageSection from '../Components/ImageSection';
-import SkillsSection from '../Components/SkillsSection';
+import SkillSection from '../Components/SkillSection';
 import ServicesSection from '../Components/ServicesSection';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
@@ -14,15 +14,18 @@ function AboutPage() {
             <ImageSection />
             <Tittle title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Typescript'} progress={'30%'} width={'30%'} />
-                <SkillsSection skill={'React Js'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'Node Js'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Lua'} progress={'40%'} width={'40%'} />
-                <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
-                <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
+            <SkillSection title={"React JS"} progress={"80%"} />
+                <SkillSection title={"Java"} progress={"80%"} />
+                <SkillSection title={"Javascript"} progress={"80%"} />
+                <SkillSection title={"Adobe XD"} progress={"80%"} />
+                <SkillSection title={"Python"} progress={"70%"} />
+                <SkillSection title={"PostgreSQL"} progress={"70%"} />
+                <SkillSection title={"R"} progress={"60%"} />
+                <SkillSection title={"Flutter"} progress={"60%"} />
+                <SkillSection title={"MATLAB"} progress={"60%"} />
+                <SkillSection title={"React Native"} progress={"50%"} />
+                <SkillSection title={"Unity"} progress={"50%"} />
+                <SkillSection title={"Tableau"} progress={"50%"} />
             </div>
 
             <Tittle title={'Services'} span={'Services'} />
