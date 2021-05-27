@@ -1,6 +1,6 @@
-.ServicesSection{
-    .service{
-        width: 95%;
+.InterestSection{
+    .interest{
+        width: 16rem;
         background-color: #191D2B;
         border-left: 1px solid #2e344e;
         border-right: 1px solid #2e344e;
@@ -14,30 +14,24 @@
         &:hover{
             border-top: 8px solid #037FFF;
         }
-        
-        .service-content{
+        .interest-content{
+            width: 16rem;
             padding: 1rem;
-            .s-title{
+            padding-bottom: 0;
+            .interest-img{
+                width: 5rem;
+            }
+            .interest-title{
                 font-size: 1.6rem;
                 font-weight: 500;
                 position: relative;
-                padding-bottom: 1rem;
                 margin: 1rem 0;
-                &::after{
-                    content: "";
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    width: 30%;
-                    height: 1px;
-                    background-color: #2e344e;
-                }
             }
         }
     }
 }
 
-.servives-container{
+.interests-container{
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;

@@ -2,10 +2,10 @@ import React from 'react'
 import Tittle from '../Components/Tittle'
 import ImageSection from '../Components/ImageSection';
 import SkillSection from '../Components/SkillSection';
-import ServicesSection from '../Components/ServicesSection';
-import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+import InterestSection from '../Components/InterestSection';
+import softwareDev from '../img/software_development.svg';
+import machineLearning from '../img/machine_learning.svg';
+import dataAnalytics from '../img/data_analytics.svg';
 
 function AboutPage() {
     return (
@@ -28,17 +28,11 @@ function AboutPage() {
                 <SkillSection title={"Tableau"} progress={"50%"} />
             </div>
 
-            <Tittle title={'Services'} span={'Services'} />
-            <div className="servives-container">
-                <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
+            <Tittle title={'Interests'} span={'Interests'} />
+            <div className="interests-container">
+                <InterestSection image={softwareDev} title={'Software Dev'} />
+                <InterestSection image={machineLearning} title={'Machine Learning'} />
+                <InterestSection image={dataAnalytics} title={'Data Analytics'} />
 
                 
             </div>
