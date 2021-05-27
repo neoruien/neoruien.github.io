@@ -1,5 +1,5 @@
 import React from 'react'
-import Tittle from '../Components/Tittle'
+import Title from '../Components/Title'
 import ImageSection from '../Components/ImageSection';
 import SkillSection from '../Components/SkillSection';
 import InterestSection from '../Components/InterestSection';
@@ -10,9 +10,9 @@ import dataAnalytics from '../img/data_analytics.svg';
 function AboutPage() {
     return (
         <div className="AboutPage">
-            <Tittle title={'About Me'} span={'About Me'} />
+            <Title title={'About Me'} />
             <ImageSection />
-            <Tittle title={'My Skills'} span={'My Skills'} />
+            <Title title={'My Skills'} />
             <div className="skillsContainer">
             <SkillSection title={"React JS"} progress={"80%"} />
                 <SkillSection title={"Java"} progress={"80%"} />
@@ -28,13 +28,11 @@ function AboutPage() {
                 <SkillSection title={"Tableau"} progress={"50%"} />
             </div>
 
-            <Tittle title={'Interests'} span={'Interests'} />
+            <Title title={'My Interests'} />
             <div className="interests-container">
                 <InterestSection image={softwareDev} title={'Software Dev'} />
                 <InterestSection image={machineLearning} title={'Machine Learning'} />
-                <InterestSection image={dataAnalytics} title={'Data Analytics'} />
-
-                
+                <InterestSection image={dataAnalytics} title={'Data Analytics'} />                
             </div>
 
         </div>

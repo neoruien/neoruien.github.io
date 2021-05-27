@@ -3,13 +3,13 @@ import ContactItem from '../Components/ContactItem';
 import phone from '../img/phone.svg';
 import email from '../img/emailme.svg';
 import location from '../img/location.svg';
-import Tittle from '../Components/Tittle';
+import Title from '../Components/Title';
 
 function ContactPage() {
     return (
         <div>
             <div className="title">
-                <Tittle title={'About Me'} span={'About Me'} />
+                <Title title={'About Me'} span={'About Me'} />
             </div>
             <div className="ContactPage">
                 <div className="map-sect">
