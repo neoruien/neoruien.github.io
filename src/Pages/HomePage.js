@@ -15,7 +15,7 @@ function HomePage() {
                     A sint ipsam earum nemo omnis et.
                 </p>
             </header>
-            <button className="btn">Download Cv</button>
+            <button className="btn">View my work</button>
         </div>
     )
 }

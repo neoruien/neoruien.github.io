@@ -41,34 +41,6 @@
     }
 }
 
-.btn{
-    padding: 1rem 2rem;
-    background-color: #037FFF;
-    outline: none;
-    border: none;
-    font-family: inherit;
-    font-size: inherit;
-    color: white;
-    text-transform: uppercase;
-    cursor: pointer;
-    letter-spacing: 2px;
-    margin-top: 1rem;
-    position: relative;
-    &::after{
-        position: absolute;
-        content: "";
-        width: 0;
-        height: .3rem;
-        left: 0;
-        bottom: 0;
-        background-color: #a4acc4;;
-        transition: all 0.4s ease-in-out;
-    }
-    &:hover::after{
-        width: 100%;
-    }
-}
-
 .skillsContainer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -120,5 +92,3 @@
         margin: 2rem 2rem;
     }
 }
-
-
