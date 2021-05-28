@@ -15,59 +15,22 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .portfolio{
+        background-color:#161925;
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
         .image-data{
             position: relative;
-            &::before{
-                content: "";
-                position: absolute;
-                top: 12px;
-                left: 15px;
-                height: calc(100% - 30px);
-                width: calc(100% - 30px);
-                background-color: rgba(255, 255, 255, 0.925);
-                transform-origin: center;
-                transform: scale(0);
-                transition: all .4s ease-in-out;
-
-            }
-            &:hover::before{
-                transform: scale(1);
-            }
+            overflow: hidden;
             img{
                 width: 100%;
                 height: 30vh;
                 object-fit: cover;
-            }
-
-            .hover-items{
-                list-style: none;
-                position: absolute;
-                top: 70%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                padding: 1rem 2rem;
-                visibility: hidden;
-                li{
-                    a{
-                        padding: 1rem;
-                        text-decoration: none;
-                        font-family: inherit;
-                        border-radius: 10px;
-                        background-color: #037FFF;
-                        color: white;
-                        &:not(:last-child){
-                            margin-right: 2rem;
-                        }
-                    }
+                transition: all .2s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
                 }
-            }
-
-            &:hover{
-                .hover-items{
-                    transition: all .5s ease-in-out .2s;
-                    visibility: visible;
-                    top: 50%;
-                }
+                padding-bottom: 2rem;
             }
         }
         
