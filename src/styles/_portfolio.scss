@@ -84,7 +84,7 @@
     }
 }
 
-.buttons{
+.categories-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@
     }
 }
 
-.btn-port{
+.categories-button-port{
     padding: .6rem 2rem;
     background-color: #0381ff5b;
     border: none;
@@ -109,9 +109,6 @@
     color: white;
     margin-bottom: 1rem;
     transition: all .3s ease-in-out;
-    &:not(:last-child){
-        margin-right: 1rem;
-    }
     &:hover{
         background-color: #037FFF;
     }

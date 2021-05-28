@@ -2,10 +2,15 @@ import React from 'react';
 
 function Categories({filter, categories}) {
     return (
-        <div className="buttons">
+        <div className="categories-buttons">
             {
-                categories.map((cat, i)=>{
-                    return <button type="button" className="btn-port" onClick={()=> filter(cat)} key={i}>{cat}</button>
+                categories.map((category, index)=>{
+                    return <button
+                        type="button"
+                        className="categories-button-port"
+                        onClick={()=> filter(category)}
+                        key={index}
+                    >{category}</button>
                 })
             }
         </div>
