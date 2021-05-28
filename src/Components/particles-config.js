@@ -1,7 +1,7 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 160,
+      value: 50,
       density: {
         enable: true,
         value_area: 800
@@ -89,13 +89,13 @@ const particlesConfig = {
       },
       bubble: {
         distance: 250,
-        size: 3.2,
-        duration: 2,
-        opacity: 0.5,
+        size: 5,
+        duration: 3,
+        opacity: 0.8,
         speed: 3
       },
       repulse: {
-        distance: 119.8801198801199,
+        distance: 120,
         duration: 0.4
       },
       push: {

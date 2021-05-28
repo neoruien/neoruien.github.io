@@ -1,8 +1,11 @@
 import React from 'react';
+import ParticlesBackground from "../Components/ParticlesBackground";
 
 function HomePage() {
     return (
-        <div className="HomePage">
+        <div>
+            <ParticlesBackground />
+            <div className="HomePage">
                 <h1 className="home-text">
                     Hi, I am 
                     <span> Rui En.</span>
@@ -11,6 +14,7 @@ function HomePage() {
                     I am a website and mobile application developer.
                 </p>
             <button className="btn">View my work</button>
+        </div>
         </div>
     )
 }
