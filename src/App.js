@@ -28,19 +28,19 @@ function App() {
       <div className="main-content">
           <div className="content">
             <Switch>
-              <Route path="/" exact>
+              <Route exact path="/">
                 <HomePage />
               </Route>
-              <Route path="/about" exact>
+              <Route exact path="/about">
                 <AboutPage />
               </Route>
-              <Route path="/portfolio" exact>
+              <Route exact path="/portfolio">
                 <PortfliosPage />
               </Route>
-              <Route path="/blogs" exact>
+              <Route exact path="/blogs">
                 <BlogsPage />
               </Route>
-              <Route path="/contact" exact>
+              <Route exact path="/contact">
                 <ContactPage />
               </Route>
             </Switch>
