@@ -5,6 +5,10 @@ import phone from '../img/phone.svg';
 import email from '../img/emailme.svg';
 import location from '../img/location.svg';
 import Title from '../Components/Title';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faGooglePlay} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function ContactPage() {
     function sendEmail(e) {
@@ -22,6 +26,17 @@ function ContactPage() {
         <div>
             <div className="title">
                 <Title title={'Contact'} />
+            </div>
+            <div className="icons">
+                <a href="https://github.com/neoruien" target="_blank" rel="noopener noreferrer" className="icon-box">
+                    <FontAwesomeIcon icon={faGithub} className="icon github" />
+                </a>
+                <a href="https://www.linkedin.com/in/neoruien/" target="_blank" rel="noopener noreferrer" className="icon-box">
+                    <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
+                </a>
+                <a href="https://play.google.com/store/apps/dev?id=5396492611515241422" target="_blank" rel="noopener noreferrer" className="icon-box">
+                    <FontAwesomeIcon icon={faGooglePlay} className="icon googleplay" />
+                </a>
             </div>
             <div className="container">
                 <form onSubmit={sendEmail}>
