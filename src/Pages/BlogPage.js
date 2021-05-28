@@ -2,13 +2,13 @@ import React from 'react';
 import Title from '../Components/Title';
 import allBlogs from '../Components/allBlogs';
 
-function BlogsPage() {
+function BlogPage() {
     return (
         <div >
             <div className="b-title">
                 <Title title={'Recent Blogs'} span={'Recent Blogs'} />
             </div>
-            <div className="BlogsPage">
+            <div className="BlogPage">
                 {
                     allBlogs.map((blog)=>{
                         return <div className="blog" key={blog.id}>
@@ -27,4 +27,4 @@ function BlogsPage() {
     )
 }
 
-export default BlogsPage;
+export default BlogPage;
