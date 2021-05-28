@@ -1,5 +1,6 @@
 import React from 'react';
 import ParticlesBackground from "../Components/ParticlesBackground";
+import {NavLink} from 'react-router-dom';
 
 function HomePage() {
     return (
@@ -13,7 +14,12 @@ function HomePage() {
                 <p className="home-subtext">
                     I am a website and mobile application developer.
                 </p>
-            <button className="btn">View my work</button>
+            
+                <NavLink to="/portfolio" exact activeClassName="active">
+                    <button className="home-button">
+                        View my work
+                    </button>
+                </NavLink>
         </div>
         </div>
     )
