@@ -8,7 +8,7 @@ function Navbar() {
             <nav className="nav">
                 <div className="profile">
                     <img src={avatar} alt=""/>
-                 </div>
+                </div>
 
                 <ul className="nav-items">
                     <li className="nav-item">
@@ -22,8 +22,8 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolios" exact activeClassName="active">
-                            Portfolios
+                        <NavLink to="/portfolio" exact activeClassName="active">
+                            Portfolio
                         </NavLink>
                     </li>
                     <li className="nav-item">

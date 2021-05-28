@@ -7,7 +7,7 @@
 }
 
 
-.hero-text{
+.home-text{
     color: white;
     text-align: center;
     font-size: 3.6rem;
@@ -16,32 +16,8 @@
     }
 }
 
-.h-sub-text{
+.home-subtext{
     text-align: center;
-}
-
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem 0;
-    .icon-box{
-        margin-right: 1rem;
-        .icon{
-            font-size: 2.8rem;
-            color: #a4acc4;
-            transition: all .4s ease-in-out;
-        }
-        .github:hover {
-            color: #6e5494;
-        }
-        .linkedin:hover {
-            color: #0072b1;
-        }
-        .googleplay:hover {
-            color: #1d7c48;
-        }
-    }
 }
 
 .btn{

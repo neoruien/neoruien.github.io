@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../Components/Title'
-import ImageSection from '../Components/ImageSection';
+import IntroSection from '../Components/IntroSection';
 import SkillSection from '../Components/SkillSection';
 import InterestSection from '../Components/InterestSection';
 import softwareDev from '../img/software_development.svg';
@@ -11,10 +11,11 @@ function AboutPage() {
     return (
         <div className="AboutPage">
             <Title title={'About Me'} />
-            <ImageSection />
+            <IntroSection />
+            
             <Title title={'My Skills'} />
-            <div className="skillsContainer">
-            <SkillSection title={"React JS"} progress={"80%"} />
+            <div className="skills-list">
+                <SkillSection title={"React JS"} progress={"80%"} />
                 <SkillSection title={"Java"} progress={"80%"} />
                 <SkillSection title={"Javascript"} progress={"80%"} />
                 <SkillSection title={"Adobe XD"} progress={"80%"} />
@@ -29,7 +30,7 @@ function AboutPage() {
             </div>
 
             <Title title={'My Interests'} />
-            <div className="interests-container">
+            <div className="interests-list">
                 <InterestSection image={softwareDev} title={'Software Dev'} />
                 <InterestSection image={machineLearning} title={'Machine Learning'} />
                 <InterestSection image={dataAnalytics} title={'Data Analytics'} />                

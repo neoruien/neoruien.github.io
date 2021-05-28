@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
+import PortfliosPage from './Pages/PortfolioPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
@@ -34,7 +34,7 @@ function App() {
               <Route path="/about" exact>
                 <AboutPage />
               </Route>
-              <Route path="/portfolios" exact>
+              <Route path="/portfolio" exact>
                 <PortfliosPage />
               </Route>
               <Route path="/blogs" exact>

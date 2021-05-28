@@ -5,10 +5,10 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGooglePlay} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function ImageSection() {
+function IntroSection() {
     return (
-        <div className="ImageSection">
-            <div className="img">
+        <div className="IntroSection">
+            <div className="about-img">
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
@@ -36,4 +36,4 @@ function ImageSection() {
     )
 }
 
-export default ImageSection;
+export default IntroSection;

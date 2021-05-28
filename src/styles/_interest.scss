@@ -1,5 +1,5 @@
 .InterestSection{
-    .interest{
+    .interest-container{
         width: 16rem;
         background-color: #191D2B;
         border-left: 1px solid #2e344e;
@@ -18,7 +18,7 @@
             width: 16rem;
             padding: 1rem;
             padding-bottom: 0;
-            .interest-img{
+            .interest-image{
                 width: 5rem;
             }
             .interest-title{
@@ -28,15 +28,5 @@
                 margin: 1rem 0;
             }
         }
-    }
-}
-
-.interests-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 4rem;
-    @media screen and (max-width:1400px){
-        flex-direction: column;
-        margin-bottom: 2rem;
     }
 }

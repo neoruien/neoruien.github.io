@@ -3,9 +3,9 @@ import React from 'react';
 function InterestSection({image, title}) {
     return (
         <div className="InterestSection">
-            <div className="interest">
+            <div className="interest-container">
                 <div className="interest-content">
-                    <img className="interest-img" src={image} alt="" />
+                    <img className="interest-image" src={image} alt="" />
                     <h5 className="interest-title">{title}</h5>
                 </div>
             </div>
