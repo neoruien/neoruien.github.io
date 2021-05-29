@@ -7,7 +7,7 @@ import PortfliosPage from './Pages/PortfolioPage';
 import BlogPage from './Pages/BlogPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
-import PortfolioItem from './Components/PortfolioItem';
+import PortfolioItem from './Pages/PortfolioItemPage';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
