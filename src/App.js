@@ -7,6 +7,7 @@ import PortfliosPage from './Pages/PortfolioPage';
 import BlogPage from './Pages/BlogPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
+import PortfolioItem from './Components/PortfolioItem';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -42,6 +43,9 @@ function App() {
               </Route>
               <Route exact path="/contact">
                 <ContactPage />
+              </Route>
+              <Route path="/portfolio/:id">
+                <PortfolioItem />
               </Route>
             </Switch>
           </div>

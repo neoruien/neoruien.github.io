@@ -1,21 +1,25 @@
-import React from 'react'
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 function MenuItems({menuItem}) {
     return (
         <div className="portfolios">
             {
                 menuItem.map((item)=>{
-                    return <div className="portfolio" key={item.id}>
-                        <div className="image-data">
-                            <img src={item.image} alt=""/>
+                    return <NavLink to={"/portfolio/" + item.id} activeClassName="active" style={{ textDecoration: 'none' }}>
+                        <div className="portfolio" key={item.id}>
+                            <div className="image-data">
+                                <img src={item.image} alt=""/>
+                            </div>
+                            <h5>
+                                {item.title}
+                            </h5>
+                            <p>
+                                {item.caption}
+                            </p>
+                            {/* <PortfolioPage /> */}
                         </div>
-                        <h5>
-                            {item.title}
-                        </h5>
-                        <p>
-                            {item.caption}
-                        </p>
-                    </div>
+                    </NavLink>
                 })
             }
         </div>

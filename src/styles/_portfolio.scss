@@ -1,5 +1,4 @@
 .PortfolioPage{
-
 }
 
 .portfolios{
@@ -33,7 +32,6 @@
                 padding-bottom: 2rem;
             }
         }
-        
         h5{
             font-size: 1.7rem;
             font-weight: 400;
@@ -41,8 +39,11 @@
             transition: all .3s ease-in-out;
             &:hover{
                 color:  #037FFF;
-                cursor: pointer;
             }
+        }
+        p{
+            color: white;
+            transition: all .3s ease-in-out;
         }
     }
 }
