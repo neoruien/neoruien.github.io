@@ -1,35 +1,21 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 
-function MenuItems({menuItem}) {
+function PortfolioMenuItems({menuItem}) {
     return (
         <div className="portfolios">
             {
                 menuItem.map((item)=>{
-                    return <NavLink exact to={{
-                        pathname: "/portfolio/" + item.id,
-                        state: {
-                            title: item.title,
-                            caption: item.caption,
-                            image: item.image
-                        }
-                    }} activeClassName="active" style={{ textDecoration: 'none' }}>
-                        <div className="portfolio" key={item.id}>
-                            <div className="image-data">
-                                <img src={item.image} alt=""/>
-                            </div>
-                            <h5>
-                                {item.title}
-                            </h5>
-                            <p>
-                                {item.caption}
-                            </p>
-                        </div>
-                    </NavLink>
+                    return <div className="portfolio" key={item.id}>
+                        <a href="https://sharp-bardeen-b329fe.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="image-data"><img src={item.image} alt=""/></div>
+                        </a>
+                        <h5>{item.title}</h5>
+                        <p>{item.projectType}</p>
+                    </div>
                 })
             }
         </div>
     )
 }
 
-export default MenuItems;
+export default PortfolioMenuItems;

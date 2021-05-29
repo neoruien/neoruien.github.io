@@ -3,7 +3,7 @@ import port2 from '../img/portImages/port1.jpg';
 import port3 from '../img/portImages/port2.jpg';
 import port4 from '../img/portImages/port3.jpg';
 import port6 from '../img/portImages/port5.jpg';
-import port7 from '../img/portImages/port6.jpg';
+import serenity from '../img/portImages/Serenity.png';
 import pixelsFly from '../img/portImages/Pixels Fly.png';
 
 const portfolios = [
@@ -64,26 +64,19 @@ const portfolios = [
     },
     {
         id: 6,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port7,
-        title: 'Vanilla Javascript Website',
-        caption: 'Pixels Fly'
+        category: 'Java',
+        link: 'https://ay2021s1-cs2103t-w12-4.github.io/tp/',
+        image: serenity,
+        title: 'Java Desktop App',
+        projectType: 'NUS CS2103T'
     },
     {
         id: 7,
         category: 'Unity3D',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        link: 'https://sharp-bardeen-b329fe.netlify.app/',
         image: pixelsFly,
-        title: 'Pixels Fly',
-        caption: 'Unity3D Android Game',
-        projectType: 'Orbital project - Artemis (Highest level)'
+        title: 'Unity3D Android Game',
+        projectType: 'NUS Orbital - Artemis (Highest level)',
     }
 ]
 
