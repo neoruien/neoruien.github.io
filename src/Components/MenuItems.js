@@ -6,7 +6,13 @@ function MenuItems({menuItem}) {
         <div className="portfolios">
             {
                 menuItem.map((item)=>{
-                    return <NavLink to={"/portfolio/" + item.id} activeClassName="active" style={{ textDecoration: 'none' }}>
+                    return <NavLink to={{
+                        pathname: "/portfolio/" + item.id,
+                        state: {
+                            title: item.title,
+                            caption: item.caption
+                        }
+                    }} activeClassName="active" style={{ textDecoration: 'none' }}>
                         <div className="portfolio" key={item.id}>
                             <div className="image-data">
                                 <img src={item.image} alt=""/>
