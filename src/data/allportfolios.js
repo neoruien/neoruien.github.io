@@ -2,65 +2,50 @@ import port1 from '../img/portImages/maya-1.jpg';
 import port2 from '../img/portImages/port1.jpg';
 import port3 from '../img/portImages/port2.jpg';
 import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
+import employeeAttrition from '../img/portImages/Employee Attrition.png';
 import serenity from '../img/portImages/Serenity.png';
 import pixelsFly from '../img/portImages/Pixels Fly.png';
 
 const portfolios = [
     {
         id: 1,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'React',
+        link: 'www.youtube.com',
         image: port1,
-        title: 'Autodesk Maya',
-        caption: 'Pixels Fly'
+        title: 'MERN Web App',
+        projectType: ''
     },
     {
         id: 2,
-        category: 'Python',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'React',
+        link: 'www.youtube.com',
         image: port2,
-        title: 'Python Web Scrapping',
-        caption: 'Pixels Fly'
+        title: 'React JS Single Page Web App',
+        projectType: 'NUS CS3249'
     },
     {
         id: 3,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'React',
+        link: 'https://neoruien.github.io/profile-page/',
         image: port3,
-        title: 'Autodesk Maya',
-        caption: 'Pixels Fly'
+        title: 'React JS Single Page App',
+        projectType: ''
     },
     {
         id: 4,
-        category: 'Javascript',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'React',
+        link: 'https://devpost.com/software/not-schrodinger-s-box',
         image: port4,
-        title: 'Vanilla Javascript Website',
-        caption: 'Pixels Fly'
+        title: 'React Native App',
+        projectType: 'Hack&Roll 2021'
     },
     {
         id: 5,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port6,
-        title: 'Getting Started With React',
-        caption: 'Pixels Fly'
+        category: 'Tableau',
+        link: 'https://public.tableau.com/app/profile/neo.rui.en/viz/EmployeeAttrition-SankeyChartDraft/EmployeeAttrition',
+        image: employeeAttrition,
+        title: 'Tableau Visualization',
+        projectType: 'Smartcademy Data Analytics'
     },
     {
         id: 6,
