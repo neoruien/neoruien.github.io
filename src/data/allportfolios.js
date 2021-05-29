@@ -82,7 +82,8 @@ const portfolios = [
         icon2: 'Y',
         image: pixelsFly,
         title: 'Pixels Fly',
-        caption: 'Unity3D Android Game'
+        caption: 'Unity3D Android Game',
+        projectType: 'Orbital project - Artemis (Highest level)'
     }
 ]
 

@@ -10,7 +10,8 @@ function MenuItems({menuItem}) {
                         pathname: "/portfolio/" + item.id,
                         state: {
                             title: item.title,
-                            caption: item.caption
+                            caption: item.caption,
+                            image: item.image
                         }
                     }} activeClassName="active" style={{ textDecoration: 'none' }}>
                         <div className="portfolio" key={item.id}>
