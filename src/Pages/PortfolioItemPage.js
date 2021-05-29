@@ -1,13 +1,14 @@
 import React from 'react';
-import {useLocation} from 'react-router-dom';
+import Title from '../components/Title';
+import {useLocation, useHistory} from 'react-router-dom';
 
 function PortfolioItem() {
   const { state } = useLocation();
+  let history = useHistory();
   return (
     <div>
-      Portfolio Item
-      {state.title}
-      {state.caption}
+      <button onClick={() => history.goBack()}>Back</button>
+      <Title title={state.title} />
     </div>
   )
 }
