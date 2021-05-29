@@ -1,13 +1,13 @@
 import './App.scss';
-import NavBar from './Components/NavBar';
-import HomePage from './Pages/HomePage';
+import NavBar from './components/NavBar';
+import HomePage from './pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
-import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfolioPage';
-import BlogPage from './Pages/BlogPage';
-import ContactPage from './Pages/ContactPage';
+import AboutPage from './pages/AboutPage';
+import PortfliosPage from './pages/PortfolioPage';
+import BlogPage from './pages/BlogPage';
+import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
-import PortfolioItem from './Pages/PortfolioItemPage';
+import PortfolioItem from './pages/PortfolioItemPage';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -44,7 +44,7 @@ function App() {
               <Route exact path="/contact">
                 <ContactPage />
               </Route>
-              <Route path="/portfolio/:id">
+              <Route exact path="/portfolio/:id">
                 <PortfolioItem />
               </Route>
             </Switch>

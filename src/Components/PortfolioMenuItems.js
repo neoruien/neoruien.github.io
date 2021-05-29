@@ -6,7 +6,7 @@ function MenuItems({menuItem}) {
         <div className="portfolios">
             {
                 menuItem.map((item)=>{
-                    return <NavLink to={{
+                    return <NavLink exact to={{
                         pathname: "/portfolio/" + item.id,
                         state: {
                             title: item.title,
@@ -23,7 +23,6 @@ function MenuItems({menuItem}) {
                             <p>
                                 {item.caption}
                             </p>
-                            {/* <PortfolioPage /> */}
                         </div>
                     </NavLink>
                 })

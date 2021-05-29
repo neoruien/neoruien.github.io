@@ -1,5 +1,5 @@
 import React from 'react';
-import ParticlesBackground from "../Components/ParticlesBackground";
+import ParticlesBackground from "../components/ParticlesBackground";
 import {NavLink} from 'react-router-dom';
 
 function HomePage() {
