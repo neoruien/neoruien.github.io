@@ -8,7 +8,15 @@ import pixelsFly from '../img/portImages/Pixels Fly.png';
 
 const portfolios = [
     {
-        id: 1,
+        id: 8,
+        category: 'Machine Learning',
+        link: 'https://neoruien.github.io/cocossd-object-detector/',
+        image: port1,
+        title: 'COCOSSD Object Detector',
+        projectType: ''
+    },
+    {
+        id: 7,
         category: 'React',
         link: 'www.youtube.com',
         image: port1,
@@ -16,7 +24,7 @@ const portfolios = [
         projectType: ''
     },
     {
-        id: 2,
+        id: 6,
         category: 'React',
         link: 'www.youtube.com',
         image: port2,
@@ -24,7 +32,7 @@ const portfolios = [
         projectType: 'NUS CS3249'
     },
     {
-        id: 3,
+        id: 5,
         category: 'React',
         link: 'https://neoruien.github.io/profile-page/',
         image: port3,
@@ -40,7 +48,7 @@ const portfolios = [
         projectType: 'Hack&Roll 2021'
     },
     {
-        id: 5,
+        id: 3,
         category: 'Tableau',
         link: 'https://public.tableau.com/app/profile/neo.rui.en/viz/EmployeeAttrition-SankeyChartDraft/EmployeeAttrition',
         image: employeeAttrition,
@@ -48,7 +56,7 @@ const portfolios = [
         projectType: 'Smartcademy Data Analytics'
     },
     {
-        id: 6,
+        id: 2,
         category: 'Java',
         link: 'https://ay2021s1-cs2103t-w12-4.github.io/tp/',
         image: serenity,
@@ -56,7 +64,7 @@ const portfolios = [
         projectType: 'NUS CS2103T'
     },
     {
-        id: 7,
+        id: 1,
         category: 'Unity3D',
         link: 'https://sharp-bardeen-b329fe.netlify.app/',
         image: pixelsFly,
