@@ -6,7 +6,7 @@ function PortfolioMenuItems({menuItem}) {
             {
                 menuItem.map((item)=>{
                     return <div className="portfolio" key={item.id}>
-                        <a href="https://sharp-bardeen-b329fe.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
                             <div className="image-data"><img src={item.image} alt=""/></div>
                         </a>
                         <h5>{item.title}</h5>

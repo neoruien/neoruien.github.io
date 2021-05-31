@@ -1,7 +1,7 @@
-import port1 from '../img/portImages/maya-1.jpg';
-import port2 from '../img/portImages/port1.jpg';
-import port3 from '../img/portImages/port2.jpg';
-import port4 from '../img/portImages/port3.jpg';
+import cocossd from '../img/portImages/COCOSSD.png';
+import temperatureDashboard from '../img/portImages/Temperature Dashboard.png';
+import profilePage from '../img/portImages/Profile Page.png';
+import schrodinger from '../img/portImages/Schrodinger.png';
 import employeeAttrition from '../img/portImages/Employee Attrition.png';
 import serenity from '../img/portImages/Serenity.png';
 import pixelsFly from '../img/portImages/Pixels Fly.png';
@@ -11,39 +11,39 @@ const portfolios = [
         id: 8,
         category: 'Machine Learning',
         link: 'https://neoruien.github.io/cocossd-object-detector/',
-        image: port1,
+        image: cocossd,
         title: 'COCOSSD Object Detector',
         projectType: ''
     },
-    {
-        id: 7,
-        category: 'React',
-        link: 'www.youtube.com',
-        image: port1,
-        title: 'MERN Web App',
-        projectType: ''
-    },
+    // {
+    //     id: 7,
+    //     category: 'React',
+    //     link: 'www.youtube.com',
+    //     image: port1,
+    //     title: 'MERN Web App',
+    //     projectType: ''
+    // },
     {
         id: 6,
         category: 'React',
-        link: 'www.youtube.com',
-        image: port2,
-        title: 'React JS Single Page Web App',
+        link: 'http://temperature-dashboard.meteorapp.com/',
+        image: temperatureDashboard,
+        title: 'Meteor React JS App',
         projectType: 'NUS CS3249'
     },
     {
         id: 5,
         category: 'React',
         link: 'https://neoruien.github.io/profile-page/',
-        image: port3,
-        title: 'React JS Single Page App',
+        image: profilePage,
+        title: 'React JS / Axios App',
         projectType: ''
     },
     {
         id: 4,
         category: 'React',
         link: 'https://devpost.com/software/not-schrodinger-s-box',
-        image: port4,
+        image: schrodinger,
         title: 'React Native App',
         projectType: 'Hack&Roll 2021'
     },
