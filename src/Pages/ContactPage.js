@@ -3,7 +3,8 @@ import React from 'react';
 import Title from '../components/Title';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import {faGooglePlay} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+// import {faGooglePlay} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function ContactPage() {
@@ -29,6 +30,9 @@ function ContactPage() {
                 </a>
                 <a href="https://www.linkedin.com/in/neoruien/" target="_blank" rel="noopener noreferrer" className="icon-box">
                     <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
+                </a>
+                <a href="mailto: neoruien123@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-box">
+                    <FontAwesomeIcon icon={faEnvelope} className="icon email" />
                 </a>
                 {/* <a href="https://play.google.com/store/apps/dev?id=5396492611515241422" target="_blank" rel="noopener noreferrer" className="icon-box">
                     <FontAwesomeIcon icon={faGooglePlay} className="icon googleplay" />
