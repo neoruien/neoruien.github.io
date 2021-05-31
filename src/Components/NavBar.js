@@ -26,11 +26,11 @@ function Navbar() {
                             Portfolio
                         </NavLink>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <NavLink to="/blog" exact activeClassName="active">
                             Blog
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
                             Contact
