@@ -30,9 +30,9 @@ function ContactPage() {
                 <a href="https://www.linkedin.com/in/neoruien/" target="_blank" rel="noopener noreferrer" className="icon-box">
                     <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
                 </a>
-                <a href="https://play.google.com/store/apps/dev?id=5396492611515241422" target="_blank" rel="noopener noreferrer" className="icon-box">
+                {/* <a href="https://play.google.com/store/apps/dev?id=5396492611515241422" target="_blank" rel="noopener noreferrer" className="icon-box">
                     <FontAwesomeIcon icon={faGooglePlay} className="icon googleplay" />
-                </a>
+                </a> */}
             </div>
             <div className="container">
                 <form onSubmit={sendEmail}>
