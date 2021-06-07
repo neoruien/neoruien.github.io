@@ -11,21 +11,25 @@ import { useState } from 'react';
 function App() {
   const [navToggle, setNavToggle] = useState(false);
 
-  const navClick = () =>{
+  const toggleNav = () => {
     setNavToggle(!navToggle)
+  }
+
+  const closeNav = () => {
+    setNavToggle(false)
   }
 
   return (
     <div className="App">
-      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`} onClick={navClick}>
+      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`} onClick={closeNav}>
         <NavBar />
       </div>
-      <div className="nav-btn" onClick={navClick}>
+      <div className="nav-btn" onClick={toggleNav}>
         <div className="lines-1"></div>
         <div className="lines-2"></div>
         <div className="lines-3"></div>
       </div>
-      <div className="main-content" onClick={navClick}>
+      <div className="main-content" onClick={closeNav}>
           <div className="content">
             <Switch>
               <Route exact path="/">
