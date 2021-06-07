@@ -38,24 +38,16 @@ function ContactPage() {
                     <FontAwesomeIcon icon={faGooglePlay} className="icon googleplay" />
                 </a> */}
             </div>
-            <div className="container">
+            <div className="form-container">
                 <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
-                        <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Name" name="name"/>
-                        </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Enter Email" name="email"/>
-                        </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" placeholder="Enter Subject" name="subject"/>
-                        </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
-                        </div>
-                        <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Send Message"></input>
-                        </div>
+                    <input type="text" className="form-text" placeholder="Name" name="name"/>
+                    <input type="email" className="form-text" placeholder="Enter Email" name="email"/>
+                    <input type="text" className="form-text" placeholder="Enter Subject" name="subject"/>
+                    <div>
+                        <textarea className="form-textarea" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" className="styled-button" value="Send Message"></input>
                     </div>
                 </form>
             </div>

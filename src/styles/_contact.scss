@@ -88,3 +88,30 @@
         }
     }
 }
+
+.form-container{
+    .form-text{
+        display: block;
+        border: none;
+        width: 100%;
+        // border-radius: 5rem;
+        padding: 1rem;
+        margin: 1rem 0;
+        background-color: #0381ff38;
+        color: white;
+        font-size: 1rem;
+        &:focus{
+            outline: none;
+            height: 5rem;
+            .form-label{
+                display: block;
+            }
+        }
+    }
+}
+
+input::-webkit-input-placeholder {
+    color: #a4acc4;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1rem;
+}
