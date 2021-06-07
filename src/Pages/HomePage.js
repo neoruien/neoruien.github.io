@@ -16,7 +16,7 @@ function HomePage() {
                 </p>
             
                 <NavLink to="/portfolio" exact activeClassName="active">
-                    <button className="home-button">
+                    <button className="my-button">
                         View my work
                     </button>
                 </NavLink>
