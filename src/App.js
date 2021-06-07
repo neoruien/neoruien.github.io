@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
+      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`} onClick={navClick}>
         <NavBar />
       </div>
       <div className="nav-btn" onClick={navClick}>
@@ -25,7 +25,7 @@ function App() {
         <div className="lines-2"></div>
         <div className="lines-3"></div>
       </div>
-      <div className="main-content">
+      <div className="main-content" onClick={navClick}>
           <div className="content">
             <Switch>
               <Route exact path="/">
