@@ -106,3 +106,12 @@ textarea::-webkit-input-placeholder{
     font-family: inherit;
     font-size: 1rem;
 }
+
+.tableau{
+    width: 2.8rem;
+    fill: #a4acc4;
+    transition: all .4s ease-in-out;
+    &:hover{
+        fill: #2d75a6;
+    }
+}
