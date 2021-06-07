@@ -29,18 +29,29 @@
                 &:hover{
                     transform: scale(1.1);
                 }
-                padding-bottom: 2rem;
+                padding-bottom: .6rem;
             }
         }
-        h5{
-            font-size: 1.7rem;
-            font-weight: 400;
+        .title{
+            font-size: 1.5rem;
             color: white;
-            transition: all .3s ease-in-out;
+        }
+        .subtitle{
+            font-size: 1.2rem;
+            color: white;
+        }
+        hr{
+            margin: .6rem 0;
+            color: white;
         }
         p{
-            color: white;
-            transition: all .3s ease-in-out;
+            font-size: 1rem;
+        }
+        .link{
+            color: #a4acc4;
+        }
+        .hidden-link{
+            display: none;
         }
     }
 }
@@ -49,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 10rem;
+    margin: 2rem 10rem;
     flex-wrap: wrap;
     @media screen and (max-width: 1270px){
         margin: 2rem 5rem;

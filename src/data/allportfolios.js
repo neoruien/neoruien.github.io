@@ -1,5 +1,7 @@
+import technicalPortfolio from '../img/portImages/Technical Portfolio.png';
 import cocossd from '../img/portImages/COCOSSD.png';
 import temperatureDashboard from '../img/portImages/Temperature Dashboard.png';
+import databaseApplication from '../img/portImages/Database Application.png';
 import profilePage from '../img/portImages/Profile Page.png';
 import schrodinger from '../img/portImages/Schrodinger.png';
 import employeeAttrition from '../img/portImages/Employee Attrition.png';
@@ -8,15 +10,33 @@ import pixelsFly from '../img/portImages/Pixels Fly.png';
 
 const portfolios = [
     {
-        id: 8,
+        id: 10,
+        category: 'React',
+        image: technicalPortfolio,
+        title: 'React JS Front-end App',
+        projectType: 'Personal Project',
+        published: 'June 2021',
+        techStack: 'React JS, Adobe XD',
+        hasGithub: true,
+        githubLink: 'https://github.com/neoruien/my-website',
+        hasWebsite: true,
+        websiteLink: 'https://neoruien.github.io/my-website/',
+    },
+    {
+        id: 9,
         category: 'Machine Learning',
-        link: 'https://neoruien.github.io/cocossd-object-detector/',
         image: cocossd,
         title: 'COCOSSD Object Detector',
-        projectType: ''
+        projectType: 'Personal Project',
+        published: 'May 2021',
+        techStack: 'React JS, COCOSSD',
+        hasGithub: true,
+        githubLink: 'https://github.com/neoruien/cocossd-object-detector',
+        hasWebsite: true,
+        websiteLink: 'https://neoruien.github.io/cocossd-object-detector/',
     },
     // {
-    //     id: 7,
+    //     id: 8,
     //     category: 'React',
     //     link: 'www.youtube.com',
     //     image: port1,
@@ -24,52 +44,95 @@ const portfolios = [
     //     projectType: ''
     // },
     {
-        id: 6,
+        id: 7,
         category: 'React',
-        link: 'http://temperature-dashboard.meteorapp.com/',
         image: temperatureDashboard,
         title: 'Meteor React JS App',
-        projectType: 'NUS CS3249'
+        projectType: 'NUS CS3249',
+        published: 'April 2021',
+        techStack: 'React JS, Meteor JS, Adobe XD',
+        hasGithub: true,
+        githubLink: 'https://github.com/neoruien/cs3249_a4',
+        hasWebsite: false,
+        websiteLink: '',
+    },
+    {
+        id: 6,
+        category: 'SQL',
+        image: databaseApplication,
+        title: 'PostgreSQL App',
+        projectType: 'NUS 2102',
+        published: 'April 2021',
+        techStack: 'PostgreSQL, pgAdmin 4',
+        hasGithub: true,
+        githubLink: 'https://github.com/neoruien/cs2102project',
+        hasWebsite: false,
+        websiteLink: '',
     },
     {
         id: 5,
         category: 'React',
-        link: 'https://neoruien.github.io/profile-page/',
         image: profilePage,
         title: 'React JS / Axios App',
-        projectType: ''
+        projectType: 'Personal Project',
+        published: 'February 2021',
+        techStack: 'React JS, Axios',
+        hasGithub: true,
+        githubLink: 'https://github.com/neoruien/profile-page',
+        hasWebsite: true,
+        websiteLink: 'https://neoruien.github.io/profile-page/',
     },
     {
         id: 4,
         category: 'React',
-        link: 'https://devpost.com/software/not-schrodinger-s-box',
         image: schrodinger,
         title: 'React Native App',
-        projectType: 'Hack&Roll 2021'
+        projectType: 'Hack&Roll 2021',
+        published: 'January 2021',
+        techStack: 'React Native, Adobe XD',
+        hasGithub: false,
+        githubLink: '',
+        hasWebsite: true,
+        websiteLink: 'https://devpost.com/software/not-schrodinger-s-box',
     },
     {
         id: 3,
         category: 'Tableau',
-        link: 'https://public.tableau.com/app/profile/neo.rui.en/viz/EmployeeAttrition-SankeyChartDraft/EmployeeAttrition',
         image: employeeAttrition,
         title: 'Tableau Visualization',
-        projectType: 'Smartcademy Data Analytics'
+        projectType: 'Smartcademy Data Analytics',
+        published: 'December 2020',
+        techStack: 'Tableau, Python (EDA)',
+        hasGithub: false,
+        githubLink: '',
+        hasWebsite: true,
+        websiteLink: 'https://public.tableau.com/app/profile/neo.rui.en/viz/EmployeeAttrition-SankeyChartDraft/EmployeeAttrition',
     },
     {
         id: 2,
         category: 'Java',
-        link: 'https://ay2021s1-cs2103t-w12-4.github.io/tp/',
         image: serenity,
         title: 'Java Desktop App',
-        projectType: 'NUS CS2103T'
+        projectType: 'NUS CS2103T',
+        published: 'November 2020',
+        techStack: 'Java, SceneBuilder, Adobe XD',
+        hasGithub: true,
+        githubLink: 'https://github.com/AY2021S1-CS2103T-W12-4/tp',
+        hasWebsite: true,
+        websiteLink: 'https://ay2021s1-cs2103t-w12-4.github.io/tp/',
     },
     {
         id: 1,
         category: 'Unity3D',
-        link: 'https://sharp-bardeen-b329fe.netlify.app/',
         image: pixelsFly,
         title: 'Unity3D Android Game',
         projectType: 'NUS Orbital - Artemis (Highest level)',
+        published: 'August 2020',
+        techStack: 'Unity3D, Blender, Adobe XD',
+        hasGithub: false,
+        githubLink: '',
+        hasWebsite: true,
+        websiteLink: 'https://sharp-bardeen-b329fe.netlify.app/',
     }
 ]
 

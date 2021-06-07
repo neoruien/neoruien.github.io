@@ -6,11 +6,24 @@ function PortfolioMenuItems({menuItem}) {
             {
                 menuItem.map((item)=>{
                     return <div className="portfolio" key={item.id}>
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                            <div className="image-data"><img src={item.image} alt=""/></div>
-                        </a>
-                        <h5>{item.title}</h5>
-                        <p>{item.projectType}</p>
+                        <div className="image-data">
+                            <img src={item.image} alt="" loading="lazy"/>
+                        </div>
+                        <div className="title">{item.title}</div>
+                        <div className="subtitle">{item.projectType}</div>
+                        <hr class="solid"/>
+                        <p>Published: {item.published}</p>
+                        <p>Tech stack: {item.techStack}</p>
+                        <p className={!item.hasGithub ? "hidden-link" : ''}>
+                            <text>GitHub repo: </text>
+                            <a className="link" href={item.githubLink} target="_blank" rel="noopener noreferrer">link</a>
+                        </p>
+                        <p className={!item.hasWebsite ? "hidden-link" : ''}>
+                            <text>Deployed website: </text>
+                            <a className="link" href={item.websiteLink} target="_blank" rel="noopener noreferrer">link</a>
+                        </p>
+                        {!item.hasGithub ? <p>&zwnj;</p> : ''}
+                        {!item.hasWebsite ? <p>&zwnj;</p> : ''}
                     </div>
                 })
             }
