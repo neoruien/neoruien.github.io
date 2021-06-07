@@ -4,7 +4,6 @@ import Title from '../components/Title';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {ftabl} from '@fortawesome/free-brands-svg-icons';
 import {faGooglePlay} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -29,7 +28,6 @@ function ContactPage() {
             <div className="title">
                 <Title title={'Contact Me'} />
             </div>
-            {/* <h4>Have a question or want to work together?</h4> */}
             <div className="form-container">
                 <form onSubmit={sendEmail}>
                     <div className="floating-label">
@@ -51,7 +49,6 @@ function ContactPage() {
                         <div className="form-button">
                             <button type="submit" className="my-button">Send Message</button>
                         </div>
-                        {/* <div className={`hide-status ${isShowingStatus ? 'show-status': ''}`}> */}
                         <p className={isSubmitted ? "show-status": "hide-status"}>Message sent!</p>
                     </div>
                 </form>
