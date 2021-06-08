@@ -6,13 +6,14 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 // import {faGooglePlay} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as config from '../config/contact-config';
 
 function ContactPage() {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const delay = ms => new Promise(res => setTimeout(res, ms))
     const sendEmail = async (e) => {
         e.preventDefault();
-        emailjs.sendForm('gmail', 'my_website_template', e.target, 'user_yePTco4WvSnmpaSd1M9xM')
+        emailjs.sendForm(config.serviceId, config.templateId, e.target, config.userId)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
