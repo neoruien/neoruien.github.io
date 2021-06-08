@@ -3,9 +3,9 @@ import Title from '../components/Title'
 import IntroSection from '../components/IntroSection';
 import SkillSection from '../components/SkillSection';
 import InterestSection from '../components/InterestSection';
-import softwareDev from '../img/software_development.svg';
-import machineLearning from '../img/machine_learning.svg';
-import dataAnalytics from '../img/data_analytics.svg';
+import softwareDev from '../img/about/software_development.svg';
+import machineLearning from '../img/about/machine_learning.svg';
+import dataAnalytics from '../img/about/data_analytics.svg';
 
 function AboutPage() {
     return (

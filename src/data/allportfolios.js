@@ -1,12 +1,12 @@
-import technicalPortfolio from '../img/portImages/Technical Portfolio.png';
-import cocossd from '../img/portImages/COCOSSD.png';
-import temperatureDashboard from '../img/portImages/Temperature Dashboard.png';
-import databaseApplication from '../img/portImages/Database Application.png';
-import profilePage from '../img/portImages/Profile Page.png';
-import schrodinger from '../img/portImages/Schrodinger.png';
-import employeeAttrition from '../img/portImages/Employee Attrition.png';
-import serenity from '../img/portImages/Serenity.png';
-import pixelsFly from '../img/portImages/Pixels Fly.png';
+import technicalPortfolio from '../img/portfolio/Technical Portfolio.png';
+import cocossd from '../img/portfolio/COCOSSD.png';
+import temperatureDashboard from '../img/portfolio/Temperature Dashboard.png';
+import databaseApplication from '../img/portfolio/Database Application.png';
+import profilePage from '../img/portfolio/Profile Page.png';
+import schrodinger from '../img/portfolio/Schrodinger.png';
+import employeeAttrition from '../img/portfolio/Employee Attrition.png';
+import serenity from '../img/portfolio/Serenity.png';
+import pixelsFly from '../img/portfolio/Pixels Fly.png';
 
 const portfolios = [
     {
