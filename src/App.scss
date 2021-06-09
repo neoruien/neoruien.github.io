@@ -1,12 +1,14 @@
-@import './styles/about';
+@import './styles/layout';
+@import './styles/navbar';
+
+@import './styles/home';
+@import './styles/intro';
+@import './styles/skill';
+@import './styles/interest';
+@import './styles/portfolio';
 @import './styles/blog';
 @import './styles/contact';
-@import './styles/layout';
-@import './styles/home';
-@import './styles/navbar';
-@import './styles/skill';
-@import './styles/portfolio';
-@import './styles/interest';
+
 @import './styles/title';
 
 *{

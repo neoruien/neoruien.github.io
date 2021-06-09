@@ -6,7 +6,7 @@ import InterestSection from '../components/InterestSection';
 
 function AboutPage() {
     return (
-        <div className="AboutPage">
+        <div>
             <Title title={'About Me'} />
             <IntroSection />
             <Title title={'My Skills'} />
