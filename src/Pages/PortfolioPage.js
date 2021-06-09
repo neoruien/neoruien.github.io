@@ -1,9 +1,8 @@
-import React from 'react';
-import Categories from '../components/PortfolioCategories';
+import React, { useState } from 'react';
+import PortfolioFilter from '../components/PortfolioFilter';
 import PortfolioMenu from '../components/PortfolioMenu';
 import Title from '../components/Title';
 import portfolios from '../data/allportfolios';
-import { useState } from 'react';
 
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
 
@@ -26,7 +25,7 @@ function PortfolioPage() {
         <div className="PortfolioPage">
             <Title title={'My Portfolio'} />
             <div className="portfolios-data">
-                <Categories filter={filter} categories={categories} />
+                <PortfolioFilter filter={filter} categories={categories} />
                 <PortfolioMenu menuItem={menuItems} />
             </div>
         </div>

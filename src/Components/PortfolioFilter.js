@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Categories({filter, categories}) {
+function PortfolioFilter({filter, categories}) {
     return (
-        <div className="categories-buttons">
+        <div className="PortfolioFilter">
             {
                 categories.map((category, index)=>{
                     return <button
                         type="button"
-                        className="categories-button-port"
+                        className="category-button"
                         onClick={()=> filter(category)}
                         key={index}
                     >{category}</button>
@@ -17,4 +17,4 @@ function Categories({filter, categories}) {
     )
 }
 
-export default Categories;
+export default PortfolioFilter;
