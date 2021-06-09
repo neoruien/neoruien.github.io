@@ -1,14 +1,16 @@
 import React from 'react';
+import InterestCard from './InterestCard';
 
-function InterestSection({image, title}) {
+import softwareDev from '../img/about/software_development.svg';
+import machineLearning from '../img/about/machine_learning.svg';
+import dataAnalytics from '../img/about/data_analytics.svg';
+
+function InterestSection() {
     return (
         <div className="InterestSection">
-            <div className="interest-container">
-                <div className="interest-content">
-                    <img className="interest-image" src={image} alt="" />
-                    <h5 className="interest-title">{title}</h5>
-                </div>
-            </div>
+            <InterestCard image={softwareDev} title={'Software Dev'} />
+            <InterestCard image={machineLearning} title={'Machine Learning'} />
+            <InterestCard image={dataAnalytics} title={'Data Analytics'} />                
         </div>
     )
 }

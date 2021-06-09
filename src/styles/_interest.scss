@@ -1,4 +1,4 @@
-.InterestSection{
+.InterestCard{
     .interest-container{
         width: 16rem;
         background-color: #191D2B;
@@ -28,5 +28,15 @@
                 margin: 1rem 0;
             }
         }
+    }
+}
+
+.InterestSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    @media screen and (max-width:1400px){
+        flex-direction: column;
+        margin-bottom: 2rem;
     }
 }
