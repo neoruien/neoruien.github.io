@@ -69,7 +69,7 @@ function SkillSection() {
                         <SkillCard image={css} title="CSS"/>
                         <SkillCard image={javascript} title="Javascript"/>
                         <SkillCard image={r} title="R"/>
-                        <SkillCard image={matlab} title="MATLAB"/>
+                        {/* <SkillCard image={matlab} title="MATLAB"/> */}
                     </div>
                 </div>
                 <div className="skill-category">
