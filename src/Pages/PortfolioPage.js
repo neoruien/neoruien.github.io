@@ -1,6 +1,6 @@
 import React from 'react';
 import Categories from '../components/PortfolioCategories';
-import PortfolioMenuItems from '../components/PortfolioMenuItems';
+import PortfolioMenu from '../components/PortfolioMenu';
 import Title from '../components/Title';
 import portfolios from '../data/allportfolios';
 import { useState } from 'react';
@@ -27,7 +27,7 @@ function PortfolioPage() {
             <Title title={'My Portfolio'} />
             <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />
-                <PortfolioMenuItems menuItem={menuItems} />
+                <PortfolioMenu menuItem={menuItems} />
             </div>
         </div>
     )
