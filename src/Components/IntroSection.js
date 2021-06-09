@@ -10,11 +10,13 @@ function IntroSection() {
             <div className="about-info">
                 <h4>I am<span> Rui En</span></h4>
                 <p className="about-text">
-                    .. and I'm a penultimate student studying Computer Science at National University of Singapore!
+                    .. and I like developing software!
                     <br/><br/>
-                    I like creating website and mobile applications.
-                    I aspire to further develop both my front-end and back-end skills, in alignment with my goal of becoming a full-stack developer.
-                    I am also learning machine learning and data analytics as I would like to incorporate these aspects into my applications.
+                    My specialty is front-end web design and development, turning Adobe XD user interfaces into clean React code.
+                    My interests extend beyond the web and I am intrigued by data science technologies.
+                    This is a place for me to share my interests in the form of fun projects I have created in the past.
+                    My academic education is in Computer Science at the National University of Singapore.
+                    Feel free to explore around and join me on my adventures.
                 </p>
             </div>
         </div>
