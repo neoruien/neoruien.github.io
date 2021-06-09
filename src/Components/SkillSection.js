@@ -61,8 +61,8 @@ function SkillSection() {
                 speed={500}
             >
                 <div className="skill-category">
-                    <p>Programming languages:</p>
-                    <div className="skillcards">
+                    <p className="category-title">Programming languages:</p>
+                    <div className="category-cards">
                         <SkillCard image={java} title="Java"/>
                         <SkillCard image={python} title="Python"/>
                         <SkillCard image={html} title="HTML"/>
@@ -73,33 +73,33 @@ function SkillSection() {
                     </div>
                 </div>
                 <div className="skill-category">
-                    <p>Frameworks:</p>
-                    <div className="skillcards">
+                    <p className="category-title">Frameworks:</p>
+                    <div className="category-cards">
                         <SkillCard image={react} title="React"/>
                         <SkillCard image={flutter} title="Flutter"/>
                     </div>
                 </div>
                 <div className="skill-category">
-                    <p>Database systems:</p>
-                    <div className="skillcards">
+                    <p className="category-title">Database systems:</p>
+                    <div className="category-cards">
                         <SkillCard image={postgresql} title="PostgreSQL"/>
                     </div>
                 </div>
                 <div className="skill-category">
-                    <p>Prototyping tools:</p>
-                    <div className="skillcards">
+                    <p className="category-title">Prototyping tools:</p>
+                    <div className="category-cards">
                         <SkillCard image={adobexd} title="Adobe XD"/>
                     </div>
                 </div>
                 <div className="skill-category">
-                    <p>Statistical tools:</p>
-                    <div className="skillcards">
+                    <p className="category-title">Statistical tools:</p>
+                    <div className="category-cards">
                         <SkillCard image={tableau} title="Tableau"/>
                     </div>
                 </div>
                 <div className="skill-category">
-                    <p>Game engines:</p>
-                    <div className="skillcards">
+                    <p className="category-title">Game engines:</p>
+                    <div className="category-cards">
                         <SkillCard image={unity} title="Unity"/>
                     </div>
                 </div>
