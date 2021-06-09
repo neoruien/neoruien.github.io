@@ -20,7 +20,7 @@ function HomePage() {
                         View my work
                     </button>
                 </NavLink>
-        </div>
+            </div>
         </div>
     )
 }

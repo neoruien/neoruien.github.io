@@ -4,26 +4,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+    background-color: pink;
+    .home-text{
+        color: white;
+        text-align: center;
+        font-size: 3.6rem;
+        span{
+            color: #037FFF;
+        }
+    }
+    .home-subtext{
+        text-align: center;
+    }    
 }
 
-.particles-bkgd{
+.ParticlesBackground{
     position: absolute;
     top: 0;
     left: 0;
     width: 84vw;
     height: 100vh;
     opacity: 0.5;
-}
-
-.home-text{
-    color: white;
-    text-align: center;
-    font-size: 3.6rem;
-    span{
-        color: #037FFF;
-    }
-}
-
-.home-subtext{
-    text-align: center;
 }
