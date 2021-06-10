@@ -47,6 +47,7 @@ function SkillSection() {
                         border: "none",
                         cursor: "pointer",
                         margin: "0",
+                        marginLeft: ".5rem",
                         position: "relative",
                     }
                 }}
@@ -60,6 +61,7 @@ function SkillSection() {
                         border: "none",
                         cursor: "pointer",
                         margin: "0",
+                        marginRight: ".5rem",
                         position: "relative",
                     }
                 }}
