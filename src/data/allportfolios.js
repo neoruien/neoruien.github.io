@@ -15,7 +15,7 @@ const portfolios = [
         image: technicalPortfolio,
         title: 'React JS Responsive Website',
         projectType: 'Personal Project',
-        description: 'This website showcases my interests and projects. It is a fully responsive website built with Sassy CSS, which is a more advanced variant of CSS.',
+        description: 'This website showcases my interests and projects. It is a fully responsive website built with Sassy CSS, which is an advanced variant of CSS.',
         published: 'Jun 2021',
         techStack: 'React JS, Adobe XD',
         hasGithub: true,
