@@ -50,8 +50,8 @@
 .nav-btn{
     position: absolute;
     z-index: 10;
-    right: 10%;
-    top: 5%;
+    right: 11%;
+    top: 3.6rem;
     width: 4rem;
     height: 4rem;
     display: none;
@@ -59,9 +59,16 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    @media screen and (max-width: 1000px){
+        display: block;
+    }
+    @media screen and (max-width: 480px){
+        display: block;
+        width: 3rem;
+    }
     .lines-1, .lines-2, .lines-3{
         height: .4rem;
-        width: 100%;
+        width: 3.5rem;
         background-color: #3858cc;
         pointer-events: none;
         display: none;
@@ -69,11 +76,12 @@
         &:not(:last-child){
             margin-bottom: .5rem;
         }
-    }
-    @media screen and (max-width: 1000px){
-        display: block;
-        .lines-1, .lines-2, .lines-3{
+        @media screen and (max-width: 1000px){
             display: block;
+        }
+        @media screen and (max-width: 480px){
+            display: block;
+            width: 3rem;
         }
     }
 }
