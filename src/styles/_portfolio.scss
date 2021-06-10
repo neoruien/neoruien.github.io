@@ -50,7 +50,7 @@
             display: none;
         }
         .description{
-            margin: .3rem 0;
+            margin-bottom: .3rem;
         }
         .bottom{
             .left{
@@ -63,8 +63,9 @@
             }
             .right{
                 float: right;
+                margin-top: .3rem;
                 a{
-                    margin: .3rem;
+                    margin-left: .6rem;
                 }
             }
         }
