@@ -12,7 +12,7 @@ import html from '../img/about/html.svg';
 import css from '../img/about/css.svg';
 import javascript from '../img/about/javascript.svg';
 import r from '../img/about/r.svg';
-import matlab from '../img/about/matlab.svg';
+// import matlab from '../img/about/matlab.svg';
 import react from '../img/about/react.svg';
 import flutter from '../img/about/flutter.svg';
 import postgresql from '../img/about/postgresql.svg';
@@ -33,7 +33,8 @@ function SkillSection() {
                 containerProps={{
                     style: {
                         width: "100%",
-                        justifyContent: "space-between"
+                        margin: "0",
+                        padding: "0",
                     }
                 }}
                 forwardBtnProps={{
@@ -45,6 +46,8 @@ function SkillSection() {
                         background: "none",
                         border: "none",
                         cursor: "pointer",
+                        margin: "0",
+                        position: "relative",
                     }
                 }}
                 backwardBtnProps={{
@@ -56,6 +59,8 @@ function SkillSection() {
                         background: "none",
                         border: "none",
                         cursor: "pointer",
+                        margin: "0",
+                        position: "relative",
                     }
                 }}
                 speed={500}

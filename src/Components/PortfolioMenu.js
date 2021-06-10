@@ -12,11 +12,11 @@ function PortfolioMenu({menuItem}) {
                             </div>
                             <div className="title">{item.title}</div>
                             <div className="subtitle">{item.projectType}</div>
-                            <hr class="solid"/>
+                            <hr className="solid"/>
                             <p>Published: {item.published}</p>
                             <p>Tech stack: {item.techStack}</p>
                             <p className={!item.hasGithub ? "hidden-link" : ''}>
-                                <text>GitHub repo: </text>
+                                <span>GitHub repo: </span>
                                 <a className="link" href={item.githubLink} target="_blank" rel="noopener noreferrer">link</a>
                             </p>
                             <p className={!item.hasWebsite ? "hidden-link" : ''}>
