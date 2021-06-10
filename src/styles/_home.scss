@@ -2,15 +2,21 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 80%;
-    height: 29%;
+    height: 30%;
+    transform: translate(-40%, -50%);
+    @media screen and (max-width: 1000px){
+        transform: translate(-50%, -50%);
+    }
     .home-text{
         color: white;
         text-align: center;
         font-size: 3.6rem;
-        @media screen and (max-width: 500px){
+        @media screen and (max-width: 460px){
             font-size: 3rem;
+        }
+        @media screen and (max-width: 385px){
+            font-size: 2.5rem;
         }
         span{
             color: #037FFF;
@@ -18,6 +24,13 @@
     }
     .home-subtext{
         text-align: center;
+        font-size: 1.5rem;
+        @media screen and (max-width: 460px){
+            font-size: 1.4rem;
+        }
+        @media screen and (max-width: 385px){
+            font-size: 1.2rem;
+        }
     }
 }
 

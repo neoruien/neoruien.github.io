@@ -12,7 +12,7 @@ function HomePage() {
                     <span> Rui En.</span>
                 </h1>
                 <p className="home-subtext">
-                    I design and build website applications.
+                    I develop website applications.
                 </p>
             
                 <NavLink to="/portfolio" exact activeClassName="active">
