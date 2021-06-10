@@ -25,7 +25,7 @@ const portfolios = [
     },
     {
         id: 9,
-        category: 'Machine Learning',
+        category: 'ML',
         image: cocossd,
         title: 'Object Detector Website',
         projectType: 'Personal Project',
