@@ -30,11 +30,13 @@
             }
         }
         .title{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             color: white;
+            font-weight: 500;
+            margin-bottom: .2rem;
         }
         .subtitle{
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: white;
         }
         hr{
@@ -43,15 +45,28 @@
         }
         p{
             font-size: 1rem;
-            span{
-                color: #a4acc4;
-            }
-        }
-        .link{
-            color: #a4acc4;
         }
         .hidden-link{
             display: none;
+        }
+        .description{
+            margin: .3rem 0;
+        }
+        .bottom{
+            .left{
+                float: left;
+                .techstack{
+                    color: white;
+                }
+                .published{
+                }
+            }
+            .right{
+                float: right;
+                a{
+                    margin: .3rem;
+                }
+            }
         }
     }
 }

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import www from '../img/portfolio/www.svg';
+import github from '../img/portfolio/github.svg';
+
 function PortfolioMenu({menuItem}) {
     return (
         <div className="PortfolioMenu">
@@ -12,19 +15,22 @@ function PortfolioMenu({menuItem}) {
                             </div>
                             <div className="title">{item.title}</div>
                             <div className="subtitle">{item.projectType}</div>
-                            <hr className="solid"/>
-                            <p>Published: {item.published}</p>
-                            <p>Tech stack: {item.techStack}</p>
-                            <p className={!item.hasGithub ? "hidden-link" : ''}>
-                                <span>GitHub repo: </span>
-                                <a className="link" href={item.githubLink} target="_blank" rel="noopener noreferrer">link</a>
-                            </p>
-                            <p className={!item.hasWebsite ? "hidden-link" : ''}>
-                                <text>Deployed website: </text>
-                                <a className="link" href={item.websiteLink} target="_blank" rel="noopener noreferrer">link</a>
-                            </p>
-                            {!item.hasGithub ? <p>&zwnj;</p> : ''}
-                            {!item.hasWebsite ? <p>&zwnj;</p> : ''}
+                            {/* <hr className="solid"/> */}
+                            <p className="description">{item.description}</p>
+                            <div className="bottom">
+                                <div className="left">
+                                    <p className="techstack">{item.techStack}</p>
+                                    <p className="published">{item.published}</p>
+                                </div>
+                                <div className="right">
+                                    <a className={!item.hasWebsite ? "hidden-link" : ''} href={item.websiteLink} target="_blank" rel="noopener noreferrer">
+                                        <img src={www} alt="" width="35rem"/>
+                                    </a>
+                                    <a className={!item.hasGithub ? "hidden-link" : ''} href={item.githubLink} target="_blank" rel="noopener noreferrer">
+                                        <img src={github} alt="" width="35rem"/>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     )
                 })
