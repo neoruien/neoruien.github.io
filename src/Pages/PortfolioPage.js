@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PortfolioFilter from "../components/PortfolioFilter";
 import PortfolioMenu from "../components/PortfolioMenu";
 import Title from "../components/Title";
-import allPortfolios from "../data/allportfolios";
+import allPortfolios from "../data/allPortfolios";
 import { Helmet } from "react-helmet";
 
 const allCategories = [
