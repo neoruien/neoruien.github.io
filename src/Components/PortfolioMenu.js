@@ -8,8 +8,8 @@ function PortfolioMenu({ menuItem }) {
     <div className="PortfolioMenu">
       {menuItem.map((item) => {
         return (
-          <Fade bottom>
-            <div className="portfolio" key={item.id}>
+          <Fade bottom key={item.id}>
+            <div className="portfolio">
               <div className="image-data">
                 <img src={item.image} alt="" loading="lazy" />
               </div>
