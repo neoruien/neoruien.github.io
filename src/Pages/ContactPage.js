@@ -90,11 +90,11 @@ function ContactPage() {
         <form onSubmit={sendEmail}>
           <div className="floating-label">
             <input type="text" required placeholder="Name" name="name" />
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
           </div>
           <div className="floating-label">
             <input type="email" placeholder="Enter Email" name="email" />
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
           </div>
           <div className="floating-label">
             <input
@@ -103,7 +103,7 @@ function ContactPage() {
               placeholder="Enter Subject"
               name="subject"
             />
-            <label for="subject">Subject</label>
+            <label htmlFor="subject">Subject</label>
           </div>
           <div>
             <textarea
