@@ -1,42 +1,46 @@
-.InterestSection{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 4rem;
-    @media screen and (max-width:1400px){
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
+.InterestSection {
+  display: flex;
+  width: 100%;
+  margin-top: 4rem;
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
 }
 
-.InterestCard{
-    .interest-container{
-        width: 16rem;
-        background-color: #191D2B;
-        border-left: 1px solid #2e344e;
-        border-right: 1px solid #2e344e;
-        border-bottom: 1px solid #2e344e;
-        border-top: 8px solid #2e344e;
-        transition: all .4s ease-in-out;
-        @media screen and (max-width:1400px){
-            width: 100%;
-            margin-bottom: 1rem;
-        }
-        &:hover{
-            border-top: 8px solid #037FFF;
-        }
-        .interest-content{
-            width: 16rem;
-            padding: 1rem;
-            padding-bottom: 0;
-            .interest-image{
-                width: 5rem;
-            }
-            .interest-title{
-                font-size: 1.6rem;
-                font-weight: 500;
-                position: relative;
-                margin: 1rem 0;
-            }
-        }
+.InterestCard:last-child {
+  margin-right: 0;
+}
+
+.InterestCard {
+  flex: 1;
+  margin-right: 2rem;
+  .interest-container {
+    background-color: #191d2b;
+    border-left: 1px solid #2e344e;
+    border-right: 1px solid #2e344e;
+    border-bottom: 1px solid #2e344e;
+    border-top: 8px solid #2e344e;
+    transition: all 0.4s ease-in-out;
+    @media screen and (max-width: 1400px) {
+      width: 100%;
+      margin-bottom: 1rem;
     }
+    &:hover {
+      border-top: 8px solid #037fff;
+    }
+    .interest-content {
+      padding: 1rem;
+      padding-bottom: 0;
+      .interest-image {
+        width: 5rem;
+      }
+      .interest-title {
+        font-size: 1.6rem;
+        font-weight: 500;
+        position: relative;
+        margin: 1rem 0;
+      }
+    }
+  }
 }
