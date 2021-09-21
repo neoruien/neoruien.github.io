@@ -1,117 +1,118 @@
-.ContactPage{
-    .title {
-        margin-bottom: 2rem;
+.ContactPage {
+  .title {
+    margin-bottom: 2rem;
+  }
+  .contact-form {
+    position: relative;
+    margin-bottom: 10rem;
+    .floating-label {
+      position: relative;
+      input {
+        display: block;
+        border: none;
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 0;
+        background-color: #0381ff38;
+        color: white;
+        font-size: 1rem;
+        &:focus {
+          outline: none;
+        }
+      }
+      label {
+        position: absolute;
+        top: calc(50% - 1.5rem);
+        left: 1rem;
+        opacity: 0;
+        transition: all 0.7s ease;
+        font-size: 1rem;
+      }
+      input:not(:placeholder-shown) {
+        // input (when something is typed)
+        padding-top: 2.5rem;
+      }
+      input:not(:placeholder-shown) + label {
+        // floating label
+        transform: translateY(-0.2rem);
+        opacity: 0.7;
+      }
     }
-    .form-container{
-        position: relative;
-        margin-bottom: 10rem;
-        .floating-label{
-            position: relative;
-            input{
-                display: block;
-                border: none;
-                width: 100%;
-                padding: 1rem;
-                margin: 1rem 0;
-                background-color: #0381ff38;
-                color: white;
-                font-size: 1rem;
-                &:focus{
-                    outline: none;
-                }
-            }
-            label{
-                position: absolute; 
-                top: calc(50% - 1.5rem);
-                left: 1rem;
-                opacity: 0; 
-                transition: all .7s ease;
-                font-size: 1rem;
-            }
-            input:not(:placeholder-shown){
-                // input (when something is typed)
-                padding-top: 2.5rem;
-            }
-            input:not(:placeholder-shown)+label{
-                // floating label
-                transform: translateY(-.2rem); 
-                opacity: .7; 
-            }
-        }
-        .form-textarea{
-            display: block;
-            border: none;
-            width: 100%;
-            padding: 1rem;
-            margin: 1rem 0;
-            background-color: #0381ff38;
-            color: white;
-            font-family: inherit;
-            font-size: 1rem;
-            &:focus{
-                outline: none;
-            }
-        }
-        .form-button{
-            position: absolute;
-            right: -.5rem;
-            width: 15rem;
-        }
-        .hide-status{
-            display: none;
-        }
-        .show-status{
-            position: absolute;
-            right: 15rem;
-            padding: 2rem .5rem;
-            font-size: 1.2rem;
-        }
+    .form-textarea {
+      display: block;
+      border: none;
+      width: 100%;
+      padding: 1rem;
+      margin: 1rem 0;
+      background-color: #0381ff38;
+      color: white;
+      font-family: inherit;
+      font-size: 1rem;
+      &:focus {
+        outline: none;
+      }
     }
-    .icons{
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        padding: .5rem 0;
-        .icon-box{
-            margin-right: 1rem;
-            .icon{
-                font-size: 2.8rem;
-                color: #a4acc4;
-                transition: all .4s ease-in-out;
-            }
-            .github:hover {
-                color: #6e5494;
-            }
-            .linkedin:hover {
-                color: #0072b1;
-            }
-            .email:hover {
-                color: #dda816;
-            }
-            .googleplay:hover {
-                color: #1d7c48;
-            }
-        }
+    .form-button {
+      position: absolute;
+      right: 0rem;
+      width: 14rem;
+      white-space: nowrap;
     }
+    .hide-status {
+      display: none;
+    }
+    .show-status {
+      position: absolute;
+      right: 15rem;
+      padding: 2rem 0.5rem;
+      font-size: 1.2rem;
+    }
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5rem 0;
+    .icon-box {
+      margin-right: 1rem;
+      .icon {
+        font-size: 2.8rem;
+        color: #a4acc4;
+        transition: all 0.4s ease-in-out;
+      }
+      .github:hover {
+        color: #6e5494;
+      }
+      .linkedin:hover {
+        color: #0072b1;
+      }
+      .email:hover {
+        color: #dda816;
+      }
+      .googleplay:hover {
+        color: #1d7c48;
+      }
+    }
+  }
 }
 
-input::-webkit-input-placeholder{
-    color: #a4acc4;
-    font-family: inherit;
-    font-size: 1rem;
+input::-webkit-input-placeholder {
+  color: #a4acc4;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
-textarea::-webkit-input-placeholder{
-    color: #a4acc4;
-    font-family: inherit;
-    font-size: 1rem;
+textarea::-webkit-input-placeholder {
+  color: #a4acc4;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
-.tableau{
-    width: 2.8rem;
-    fill: #a4acc4;
-    transition: all .4s ease-in-out;
-    &:hover{
-        fill: #2d75a6;
-    }
+.tableau {
+  width: 2.8rem;
+  fill: #a4acc4;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    fill: #2d75a6;
+  }
 }
