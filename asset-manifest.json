@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e25ef42a.chunk.css",
-    "main.js": "/static/js/main.05cc1f3c.chunk.js",
-    "main.js.map": "/static/js/main.05cc1f3c.chunk.js.map",
+    "main.css": "/static/css/main.2b628a8e.chunk.css",
+    "main.js": "/static/js/main.6c518328.chunk.js",
+    "main.js.map": "/static/js/main.6c518328.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ac9721a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ac9721a.js.map",
     "static/js/2.d725c2ea.chunk.js": "/static/js/2.d725c2ea.chunk.js",
     "static/js/2.d725c2ea.chunk.js.map": "/static/js/2.d725c2ea.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e25ef42a.chunk.css.map": "/static/css/main.e25ef42a.chunk.css.map",
+    "static/css/main.2b628a8e.chunk.css.map": "/static/css/main.2b628a8e.chunk.css.map",
     "static/js/2.d725c2ea.chunk.js.LICENSE.txt": "/static/js/2.d725c2ea.chunk.js.LICENSE.txt",
     "static/media/Anomaly Detection.5e5d090d.png": "/static/media/Anomaly Detection.5e5d090d.png",
     "static/media/Binary Calculator.8c4ced12.png": "/static/media/Binary Calculator.8c4ced12.png",
@@ -32,13 +32,13 @@
     "static/media/blog4.60aa6cec.svg": "/static/media/blog4.60aa6cec.svg",
     "static/media/blog5.d112587b.svg": "/static/media/blog5.d112587b.svg",
     "static/media/css.dbd31fe1.svg": "/static/media/css.dbd31fe1.svg",
-    "static/media/data_analytics.a1a484b4.svg": "/static/media/data_analytics.a1a484b4.svg",
     "static/media/flutter.7c684e75.svg": "/static/media/flutter.7c684e75.svg",
     "static/media/github.08f70f4b.svg": "/static/media/github.08f70f4b.svg",
     "static/media/html.87f3f64a.svg": "/static/media/html.87f3f64a.svg",
     "static/media/java.3c5854fc.svg": "/static/media/java.3c5854fc.svg",
     "static/media/javascript.da68e7c5.svg": "/static/media/javascript.da68e7c5.svg",
     "static/media/machine_learning.456a412a.svg": "/static/media/machine_learning.456a412a.svg",
+    "static/media/mobile_development.b37bfcd8.svg": "/static/media/mobile_development.b37bfcd8.svg",
     "static/media/postgresql.b215fdee.svg": "/static/media/postgresql.b215fdee.svg",
     "static/media/python.439dd3d2.svg": "/static/media/python.439dd3d2.svg",
     "static/media/r.b1860298.svg": "/static/media/r.b1860298.svg",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ac9721a.js",
     "static/js/2.d725c2ea.chunk.js",
-    "static/css/main.e25ef42a.chunk.css",
-    "static/js/main.05cc1f3c.chunk.js"
+    "static/css/main.2b628a8e.chunk.css",
+    "static/js/main.6c518328.chunk.js"
   ]
 }
