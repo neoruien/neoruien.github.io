@@ -1,23 +1,42 @@
+import binaryCalculator from "../img/portfolio/Binary Calculator.png";
 import lifehack from "../img/portfolio/Lifehack.png";
 import technicalPortfolio from "../img/portfolio/Technical Portfolio.png";
 import cocossd from "../img/portfolio/COCOSSD.png";
 import temperatureDashboard from "../img/portfolio/Temperature Dashboard.png";
+import anomalyDetection from "../img/portfolio/Anomaly Detection.png";
 import databaseApplication from "../img/portfolio/Database Application.png";
 import profilePage from "../img/portfolio/Profile Page.png";
 import schrodinger from "../img/portfolio/Schrodinger.png";
 import employeeAttrition from "../img/portfolio/Employee Attrition.png";
 import serenity from "../img/portfolio/Serenity.png";
 import pixelsFly from "../img/portfolio/Pixels Fly.png";
+import foodrush from "../img/portfolio/Foodrush.png";
 
 const portfolios = [
+  {
+    id: 12,
+    category: "Flutter",
+    image: binaryCalculator,
+    title: "Flutter Mobile App",
+    projectType: "Personal Project",
+    description:
+      "Binary calculator is a useful tool that performs mathematical operations and converts between four different number bases.",
+    published: "Sep 2021",
+    techStack: "Flutter",
+    hasGithub: false,
+    githubLink: "",
+    hasWebsite: true,
+    websiteLink:
+      "https://drive.google.com/file/d/1K9fk6BJ9ObUTEYO1chv_8HcZl9ovrngD/view?usp=sharing",
+  },
   {
     id: 11,
     category: "React",
     image: lifehack,
-    title: "LifeHack 2021",
+    title: "LifeHack 2021 Website",
     projectType: "NUS Computing Club",
     description:
-      "This website serves as a landing page for LifeHack 2021 hackathon, which I helped to organize as part of the Academic Liaison cell of NUS Students' Computing Club. ",
+      "This website serves as a landing page for LifeHack 2021 hackathon, which I helped to organize as part of the Academic Liaison cell of NUS Students' Computing Club.",
     published: "Jun 2021",
     techStack: "React JS, Adobe XD",
     hasGithub: true,
@@ -32,7 +51,7 @@ const portfolios = [
     title: "React JS Responsive Website",
     projectType: "Personal Project",
     description:
-      "This website showcases my interests and projects. It is a fully responsive website built with Sassy CSS, which is an advanced variant of CSS.",
+      "This website showcases my interests and projects. It is a fully responsive website built with Sassy CSS.",
     published: "Jun 2021",
     techStack: "React JS, Adobe XD",
     hasGithub: true,
@@ -55,14 +74,21 @@ const portfolios = [
     hasWebsite: true,
     websiteLink: "https://neoruien.github.io/cocossd-object-detector/",
   },
-  // {
-  //     id: 8,
-  //     category: 'React',
-  //     link: 'www.youtube.com',
-  //     image: port1,
-  //     title: 'MERN Web App',
-  //     projectType: ''
-  // },
+  {
+    id: 8,
+    category: "ML",
+    image: anomalyDetection,
+    title: "Anomaly Detection Code",
+    projectType: "NUS DMY1401TT Machine Learning in Practice",
+    description:
+      "The code explores 3 anomaly detection methods, namely Isolation Forest, Long Short-Term Memory (LSTM) and One-Class SVM (OCSVM).",
+    published: "May 2021",
+    techStack: "Python",
+    hasGithub: true,
+    githubLink: "https://github.com/neoruien/anomaly-detection",
+    hasWebsite: false,
+    websiteLink: "",
+  },
   {
     id: 7,
     category: "React",
@@ -168,6 +194,22 @@ const portfolios = [
     githubLink: "",
     hasWebsite: true,
     websiteLink: "https://sharp-bardeen-b329fe.netlify.app/",
+  },
+  {
+    id: 0,
+    category: "Flutter",
+    image: foodrush,
+    title: "Flutter Mobile App",
+    projectType: "DSTA BrainHack Code_EXP",
+    description:
+      "Foodrush is a proof-of-concept application that aims to facilitate the purchase and selling of surplus ingredients between hawkers and grocery shoppers. This supports hawkers' livelihood and strengthens Singapore's food security by mitigating food wastage amidst the Covid-19 lockdown.",
+    published: "Jun 2020",
+    techStack: "Flutter",
+    hasGithub: false,
+    githubLink: "",
+    hasWebsite: true,
+    websiteLink:
+      "https://drive.google.com/file/d/1ucWrqUQK8FFl1_5XdMp6ynSS9uFntoII/view?usp=sharing",
   },
 ];
 
