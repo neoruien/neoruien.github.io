@@ -116,7 +116,7 @@ function ContactPage() {
           <div>
             <div className="form-button">
               <button type="submit" className="my-button">
-                Send Message
+                Send
               </button>
             </div>
             <p className={isSubmitted ? "show-status" : "hide-status"}>
