@@ -86,7 +86,7 @@ function ContactPage() {
                     </a>
                 </abbr> */}
       </div>
-      <div className="form-container">
+      {/* <div className="form-container">
         <form onSubmit={sendEmail}>
           <div className="floating-label">
             <input type="text" required placeholder="Name" name="name" />
@@ -124,7 +124,7 @@ function ContactPage() {
             </p>
           </div>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
