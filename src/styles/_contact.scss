@@ -2,7 +2,7 @@
   .title {
     margin-bottom: 2rem;
   }
-  .contact-form {
+  .form-container {
     position: relative;
     margin-bottom: 10rem;
     .floating-label {
@@ -54,16 +54,15 @@
     }
     .form-button {
       position: absolute;
-      right: 0rem;
-      width: 14rem;
-      white-space: nowrap;
+      right: -3.6rem;
+      width: 15rem;
     }
     .hide-status {
       display: none;
     }
     .show-status {
       position: absolute;
-      right: 15rem;
+      right: 9.5rem;
       padding: 2rem 0.5rem;
       font-size: 1.2rem;
     }

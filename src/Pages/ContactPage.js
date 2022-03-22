@@ -86,7 +86,7 @@ function ContactPage() {
                     </a>
                 </abbr> */}
       </div>
-      {/* <div className="form-container">
+      <div className="form-container">
         <form onSubmit={sendEmail}>
           <div className="floating-label">
             <input type="text" required placeholder="Name" name="name" />
@@ -116,7 +116,7 @@ function ContactPage() {
           <div>
             <div className="form-button">
               <button type="submit" className="my-button">
-                Send Message
+                Send
               </button>
             </div>
             <p className={isSubmitted ? "show-status" : "hide-status"}>
@@ -124,7 +124,7 @@ function ContactPage() {
             </p>
           </div>
         </form>
-      </div> */}
+      </div>
     </div>
   );
 }
