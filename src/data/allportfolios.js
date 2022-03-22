@@ -1,3 +1,5 @@
+import theSeams from "../img/portfolio/The Seams.png";
+import virtuallyRunningTogether from "../img/portfolio/Virtually Running Together.png";
 import binaryCalculator from "../img/portfolio/Binary Calculator.png";
 import lifehack from "../img/portfolio/Lifehack.png";
 import technicalPortfolio from "../img/portfolio/Technical Portfolio.png";
@@ -13,6 +15,37 @@ import pixelsFly from "../img/portfolio/Pixels Fly.png";
 import foodrush from "../img/portfolio/Foodrush.png";
 
 const portfolios = [
+  {
+    id: 14,
+    category: "UI/UX",
+    image: theSeams,
+    title: "The Seams",
+    projectType: "CS3240",
+    description:
+      "As part of a group assignment, our group decided to assist clothing upcyclers in completing projects more efficiently. After multiple iterations of conducting user research, brainstorming ideas and creating prototypes using Balsamiq and Figma, we created an interactive Figma prototype of a mobile application that helps upcyclers generate project ideas, take tailoring measurements and provide guidance on how to sew the desired clothing. We have also created a website (using React JS) that describes the entire process of the project and provides embedded links to the prototypes.",
+    published: "Nov 2021",
+    techStack: "Figma, Balsamiq, React JS",
+    hasGithub: false,
+    githubLink: "",
+    hasWebsite: true,
+    websiteLink: "https://theseams.github.io/",
+  },
+  {
+    id: 13,
+    category: "UI/UX",
+    image: virtuallyRunningTogether,
+    title: "Virtually Running Together",
+    projectType: "CS3240",
+    description:
+      "As part of an individual design assignment, I designed user interfaces for a mobile application and a Focals Smart-glasses device. The combination allows friends to run together virtually amidst the Covid-19 pandemic. The mobile application allows users to connect with one another and plan virtual running sessions, while the smart glasses allows users to coordinate virtual running sessions in real time.",
+    published: "Oct 2021",
+    techStack: "Figma, Balsamiq",
+    hasGithub: false,
+    githubLink: "",
+    hasWebsite: true,
+    websiteLink:
+      "https://www.figma.com/file/uipgJkmyqTjpxyFxNoB3Ap/Virtually-Running-Together?node-id=203%3A3244",
+  },
   {
     id: 12,
     category: "Flutter",
